@@ -152,15 +152,4 @@ az group delete --name rg-multitier-prod --yes --no-wait
 - Review NSG effective rules: `az network nic show-effective-nsg -g rg-multitier-prod -n <NIC_NAME>`
 - Check route tables: `az network nic show-effective-route-table -g rg-multitier-prod -n <NIC_NAME>`
 
-## Next Steps
 
-1. Install web server on Web VM (nginx/apache)
-2. Install application on App VM (Node.js, Python, etc.)
-3. Install database on DB VM (PostgreSQL, MySQL)
-4. Configure application connectivity
-5. Set up monitoring and alerts
-6. Implement backup strategies
-
----
-**Generated**: Wed Nov  5 01:54:44 AM EST 2025
-**Deployment Script**: deploy.sh
